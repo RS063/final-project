@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #e3f2fd; /* 淺藍色背景 */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transform: translateY(-4px);
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #ff8c00; /* 橘色 */
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #0e7c7b;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #106b6a;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 250px; /* 增加高度 */
+  object-fit: cover; /* 確保圖片保持比例 */
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #0d47a1; /* 淺藍色調標題 */
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #0d47a1; /* 淺藍色調分隔線 */
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 5px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.contact p {
+  margin: 5px 0;
+}
